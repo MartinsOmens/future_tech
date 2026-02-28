@@ -20,18 +20,19 @@ import icon_7 from "../public/home/icon-7.svg";
 import banner_1 from "../public/home/banner-1.png";
 import banner_2 from "../public/home/banner-2.png";
 
-//USER
-import user_1 from "../public/home/user_1.png";
-import user_2 from "../public/home/user_2.png";
-import user_3 from "../public/home/user_3.png";
 
-//PROFILE
-import profile_1 from "../public/home/profile-1.png";
-import profile_2 from "../public/home/profile-2.png";
-import profile_3 from "../public/home/profile-3.png";
-import profile_4 from "../public/home/profile-4.png";
-import profile_5 from "../public/home/profile-5.png";
-import profile_6 from "../public/home/profile-6.png";
+
+//AVATAR
+import profile_1 from "../public/avatar/profile-1.png";
+import profile_2 from "../public/avatar/profile-2.png";
+import profile_3 from "../public/avatar/profile-3.png";
+import profile_4 from "../public/avatar/profile-4.png";
+import profile_5 from "../public/avatar/profile-5.png";
+import profile_6 from "../public/avatar/profile-6.png";
+//USER
+import user_1 from "../public/avatar/user_1.png";
+import user_2 from "../public/avatar/user_2.png";
+import user_3 from "../public/avatar/user_3.png";
 
 export const assets = {
   logo_full,

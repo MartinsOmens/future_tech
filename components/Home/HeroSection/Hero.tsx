@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { assets } from "@/lib/assets";
-import {HeroDetails, TechFeatures} from "../index";
-
 import { GoArrowUpRight } from "react-icons/go";
 import Link from "next/link";
+import HeroDetails from "./HeroDetails";
+
 
 const Hero = () => {
   return (
@@ -100,12 +100,9 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      <div className="w-full my-5 px-5 border-t border-white/20">
-        <HeroDetails />
-      </div>
 
-      <div className="w-full">
-        <TechFeatures/>
+       <div className="w-full my-5 px-5 border-t border-white/20">
+        <HeroDetails />
       </div>
     </>
   );
