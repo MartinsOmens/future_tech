@@ -1,0 +1,22 @@
+export interface Feature {
+  title: string;
+  description: string;
+}
+
+export const features: Feature[] = [
+  {
+    title: "Resource Access",
+    description:
+      "Visitors can access a wide range of resources, including ebooks, whitepapers, reports."
+  },
+  {
+    title: "Community Forum",
+    description:
+      "Join our active community forum to discuss industry trends, share insights, and collaborate with peers."
+  },
+  {
+    title: "Tech Events",
+    description:
+      "Stay updated on upcoming tech events, webinars, and conferences to enhance your knowledge."
+  }
+]

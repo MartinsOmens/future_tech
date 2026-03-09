@@ -2,6 +2,8 @@ import React from 'react'
 import Hero from "./HeroSection/Hero"
 import TechFeatures from './WhyFutureTech/TechFeatures'
 import IndepthSection from './FutureTech/IndepthSection'
+import ResourcesSection from './ResourceHub/ResourcesSection'
+import Testimonials from './TestimonialsSection/Testimonials'
 
 const HomePage = () => {
   return (
@@ -9,6 +11,8 @@ const HomePage = () => {
         <Hero/>
         <TechFeatures/>
         <IndepthSection/>
+        <ResourcesSection/>
+        <Testimonials/>
       
     </div>
   )

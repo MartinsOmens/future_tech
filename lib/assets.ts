@@ -6,6 +6,7 @@ import hamburger from "../public/home/hamburger-icon.svg"
 import arrow_icon from "../public/home/arrow-icon.svg";
 
 import user_collection from "../public/home/Sub Container.png";
+import user_container from "../public/home/user-container.png";
 
 //HOME ICONS
 import icon_1 from "../public/home/Icon.svg";
@@ -39,6 +40,7 @@ export const assets = {
   logo_big,
   arrow_icon,
   user_collection,
+  user_container,
   hamburger,
   banner_1,
   banner_2,
