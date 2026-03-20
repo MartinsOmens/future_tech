@@ -2,18 +2,18 @@ import React, { useState } from "react";
 
 const categories = [
   "All",
-  "Quantum Computing",
-  "AI Ethics",
-  "Space Exploration",
-  "Biotechnology",
-  "Renewable Energy",
+  "Technology",
+  "Politics",
+  "Health",
+  "Environment",
+  "Sports",
 ];
 
-const BlogBtn = () => {
+const HubBtn = () => {
   const [active, setActive] = useState("All");
 
   return (
-    <section className="w-full mt-10 border-b border-white/20">
+    <section className="w-full mt-10 ">
       <div className="
         max-w-7xl mx-auto 
         px-4 py-6
@@ -35,6 +35,7 @@ const BlogBtn = () => {
               text-sm
               transition
               text-center
+             
               ${
                 active === cat
                   ? "bg-[#262626] text-white  border border-white/20"   // active
@@ -50,4 +51,4 @@ const BlogBtn = () => {
   );
 };
 
-export default BlogBtn;
+export default HubBtn;

@@ -4,6 +4,7 @@ import TechFeatures from './WhyFutureTech/TechFeatures'
 import IndepthSection from './FutureTech/IndepthSection'
 import ResourcesSection from './ResourceHub/ResourcesSection'
 import Testimonials from './TestimonialsSection/Testimonials'
+import CTASection from './CTA/CTASection'
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
         <IndepthSection/>
         <ResourcesSection/>
         <Testimonials/>
+        <CTASection/>
       
     </div>
   )

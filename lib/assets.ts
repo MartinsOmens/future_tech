@@ -1,3 +1,4 @@
+
 //LOGO
 import logo_full from "../public/home/Logo.png";
 import logo_big from "../public/home/logo_big.png";
@@ -22,7 +23,6 @@ import banner_1 from "../public/home/banner-1.png";
 import banner_2 from "../public/home/banner-2.png";
 
 
-
 //AVATAR
 import profile_1 from "../public/avatar/profile-1.png";
 import profile_2 from "../public/avatar/profile-2.png";
@@ -35,7 +35,28 @@ import user_1 from "../public/avatar/user_1.png";
 import user_2 from "../public/avatar/user_2.png";
 import user_3 from "../public/avatar/user_3.png";
 
+
+//NEWS IMAGES
+import header from "../public/news/header.png";
+import news_1 from "../public/news/news-1.svg";
+import news_2 from "../public/news/news-2.svg";
+import news_3 from "../public/news/news-3.png";
+
+import profile_photo_1 from "../public/news/user-1.png";
+import profile_photo_2 from "../public/news/user-2.png";
+import profile_photo_3 from "../public/news/user-3.png";
+
+import vid_1 from "../public/news/vid-1.png";
+import vid_2 from "../public/news/vid-2.png";
+import vid_3 from "../public/news/vid-3.png";
+import vid_4 from "../public/news/vid-4.png";
+
+import open_banner from "../public/news/open-image.png"
+
+//PODCAST IMAGES
+
 export const assets = {
+  //HOME
   logo_full,
   logo_big,
   arrow_icon,
@@ -60,6 +81,20 @@ export const assets = {
   user_1,
   user_2,
   user_3,
+
+  //NEWS
+  header,
+  news_1,
+  news_2,
+  news_3,
+  profile_photo_1,
+  profile_photo_2,
+  profile_photo_3,  
+  vid_1,
+  vid_2,
+  vid_3,
+  vid_4,
+  open_banner,
 };
 
 

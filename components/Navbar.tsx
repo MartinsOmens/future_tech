@@ -28,7 +28,7 @@ const Navbar = () => {
         {/* ---- TOP INFO BAR ---- */}
         <div className="bg-black/80 backdrop-blur border-b border-white/5">
           <div className="max-w-7xl mx-auto px-4 py-2">
-            <div className="flex items-center gap-2 text-xs sm:text-sm text-[#98989A]">
+            <div className="flex items-center justify-center gap-2 text-xs sm:text-sm text-[#98989A]">
               <p className="leading-snug">
                 Subscribe to our Newsletter for News & Latest Blogs and Resources
               </p>

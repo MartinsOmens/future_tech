@@ -1,9 +1,10 @@
-import React from 'react'
+import News from '@/components/News/News'
+
 
 const page = () => {
   return (
     <div>
-      <h1>Newx page</h1>
+     <News/>
     </div>
   )
 }
