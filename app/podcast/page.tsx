@@ -1,9 +1,8 @@
+import PodcastSection from "@/components/Podcast/PodcastSection"
 
 const page = () => {
   return (
-    <div>
-      <h1>Podcast Section</h1>
-    </div>
+    <PodcastSection/>
   )
 }
 

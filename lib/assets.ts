@@ -1,8 +1,7 @@
-
 //LOGO
 import logo_full from "../public/home/Logo.png";
 import logo_big from "../public/home/logo_big.png";
-import hamburger from "../public/home/hamburger-icon.svg"
+import hamburger from "../public/home/hamburger-icon.svg";
 
 import arrow_icon from "../public/home/arrow-icon.svg";
 
@@ -22,7 +21,6 @@ import icon_7 from "../public/home/icon-7.svg";
 import banner_1 from "../public/home/banner-1.png";
 import banner_2 from "../public/home/banner-2.png";
 
-
 //AVATAR
 import profile_1 from "../public/avatar/profile-1.png";
 import profile_2 from "../public/avatar/profile-2.png";
@@ -34,7 +32,6 @@ import profile_6 from "../public/avatar/profile-6.png";
 import user_1 from "../public/avatar/user_1.png";
 import user_2 from "../public/avatar/user_2.png";
 import user_3 from "../public/avatar/user_3.png";
-
 
 //NEWS IMAGES
 import header from "../public/news/header.png";
@@ -51,9 +48,20 @@ import vid_2 from "../public/news/vid-2.png";
 import vid_3 from "../public/news/vid-3.png";
 import vid_4 from "../public/news/vid-4.png";
 
-import open_banner from "../public/news/open-image.png"
+import open_banner from "../public/news/open-image.png";
 
 //PODCAST IMAGES
+
+import pod_icon_1 from "../public/podcast/pod-icon-1.svg";
+import pod_icon_2 from "../public/podcast/pod-icon-2.svg";
+import pod_banner_1 from "../public/podcast/pod-1.png";
+import pod_banner_2 from "../public/podcast/pod-2.png";
+import episode_img_1 from "../public/podcast/ep-1.png";
+import episode_img_2 from "../public/podcast/ep-2.png";
+import episode_img_3 from "../public/podcast/ep-3.png";
+import episode_img_4 from "../public/podcast/ep-4.png";
+import episode_img_5 from "../public/podcast/ep-5.png";
+import episode_img_6 from "../public/podcast/ep-6.png";
 
 export const assets = {
   //HOME
@@ -89,13 +97,23 @@ export const assets = {
   news_3,
   profile_photo_1,
   profile_photo_2,
-  profile_photo_3,  
+  profile_photo_3,
   vid_1,
   vid_2,
   vid_3,
   vid_4,
   open_banner,
+
+  //PODCAST
+
+  pod_icon_1,
+  pod_icon_2,
+  pod_banner_1,
+  pod_banner_2,
+  episode_img_1,
+  episode_img_2,
+  episode_img_3,
+  episode_img_4,
+  episode_img_5,
+  episode_img_6,
 };
-
-
-
